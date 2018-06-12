@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631D2A3E207A0390002D7B58 /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D2A3D207A0390002D7B58 /* Beverage.swift */; };
+		631D2A40207A043C002D7B58 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D2A3F207A043C002D7B58 /* Coffee.swift */; };
+		631D2A43207A04D0002D7B58 /* Milk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D2A42207A04D0002D7B58 /* Milk.swift */; };
+		631D2A45207A04D9002D7B58 /* Chocolate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D2A44207A04D9002D7B58 /* Chocolate.swift */; };
+		631D2A47207A04EB002D7B58 /* Nuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D2A46207A04EB002D7B58 /* Nuts.swift */; };
+		631D2A49207A09F8002D7B58 /* BaseAddition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D2A48207A09F8002D7B58 /* BaseAddition.swift */; };
+		632AC8AF2066BB4000DDCD73 /* SomeElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632AC8AE2066BB4000DDCD73 /* SomeElement.swift */; };
+		63304D8420A87AEB00F727D4 /* PizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63304D8320A87AEB00F727D4 /* PizzaStore.swift */; };
+		63304D8820A87CBE00F727D4 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63304D8720A87CBE00F727D4 /* Pizza.swift */; };
+		63304D8A20A87DCE00F727D4 /* NYCheesePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63304D8920A87DCE00F727D4 /* NYCheesePizza.swift */; };
+		63304D8C20A87E7900F727D4 /* NYPizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63304D8B20A87E7900F727D4 /* NYPizzaStore.swift */; };
+		63304D9020A8812500F727D4 /* NYFruitPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63304D8F20A8812500F727D4 /* NYFruitPizza.swift */; };
+		63304D9420A8819800F727D4 /* CAPizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63304D9320A8819800F727D4 /* CAPizzaStore.swift */; };
+		63304D9620A881E600F727D4 /* CACheesePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63304D9520A881E600F727D4 /* CACheesePizza.swift */; };
+		63304D9820A881F900F727D4 /* CAFruitPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63304D9720A881F900F727D4 /* CAFruitPizza.swift */; };
+		635273A92061735500EBF6CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273A82061735500EBF6CD /* AppDelegate.swift */; };
+		635273AB2061735500EBF6CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273AA2061735500EBF6CD /* ViewController.swift */; };
+		635273AE2061735500EBF6CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635273AC2061735500EBF6CD /* Main.storyboard */; };
+		635273B02061735500EBF6CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635273AF2061735500EBF6CD /* Assets.xcassets */; };
+		635273B32061735500EBF6CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635273B12061735500EBF6CD /* LaunchScreen.storyboard */; };
+		635273BC2061736B00EBF6CD /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273BB2061736B00EBF6CD /* Duck.swift */; };
+		635273BE2061743F00EBF6CD /* FlyBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273BD2061743F00EBF6CD /* FlyBehavior.swift */; };
+		635273C02061745900EBF6CD /* QuackBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273BF2061745900EBF6CD /* QuackBehaviour.swift */; };
+		635273C4206174D400EBF6CD /* VeryHighFlyBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273C3206174D400EBF6CD /* VeryHighFlyBehaviour.swift */; };
+		635273C6206174E500EBF6CD /* NoFlyBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273C5206174E500EBF6CD /* NoFlyBehaviour.swift */; };
+		635273CA206175D200EBF6CD /* SquackBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273C9206175D200EBF6CD /* SquackBehaviour.swift */; };
+		635273CC2061760300EBF6CD /* MeokBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273CB2061760300EBF6CD /* MeokBehaviour.swift */; };
+		635273CE2061763600EBF6CD /* RedDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273CD2061763600EBF6CD /* RedDuck.swift */; };
+		635273D0206176DB00EBF6CD /* WoodyDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273CF206176DB00EBF6CD /* WoodyDuck.swift */; };
+		635273D32061787300EBF6CD /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273D22061787300EBF6CD /* WeatherData.swift */; };
+		635273D5206178E000EBF6CD /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273D4206178E000EBF6CD /* Subject.swift */; };
+		635273D72061795400EBF6CD /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273D62061795400EBF6CD /* Observer.swift */; };
+		6397642E20C438D6002B06D6 /* PizzaIngredientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397642D20C438D6002B06D6 /* PizzaIngredientFactory.swift */; };
+		6397643020C43930002B06D6 /* Dough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397642F20C43930002B06D6 /* Dough.swift */; };
+		6397643220C43944002B06D6 /* Sauce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397643120C43944002B06D6 /* Sauce.swift */; };
+		6397643420C43954002B06D6 /* Cheese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397643320C43954002B06D6 /* Cheese.swift */; };
+		6397643620C43965002B06D6 /* Veggies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397643520C43965002B06D6 /* Veggies.swift */; };
+		6397643820C43975002B06D6 /* Pepperoni.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397643720C43975002B06D6 /* Pepperoni.swift */; };
+		6397643B20C43A79002B06D6 /* NYPizzaIngredientsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397643A20C43A79002B06D6 /* NYPizzaIngredientsFactory.swift */; };
+		6397643D20C43B6F002B06D6 /* AbstractPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397643C20C43B6F002B06D6 /* AbstractPizza.swift */; };
+		6397643F20C43D0B002B06D6 /* CheesePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397643E20C43D0B002B06D6 /* CheesePizza.swift */; };
+		6397644320C43F12002B06D6 /* NYPizzaStoreDupl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397644220C43F12002B06D6 /* NYPizzaStoreDupl.swift */; };
+		6397644520C440C2002B06D6 /* PizzaStoreDupl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397644420C440C2002B06D6 /* PizzaStoreDupl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		631D2A3D207A0390002D7B58 /* Beverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
+		631D2A3F207A043C002D7B58 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		631D2A42207A04D0002D7B58 /* Milk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milk.swift; sourceTree = "<group>"; };
+		631D2A44207A04D9002D7B58 /* Chocolate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chocolate.swift; sourceTree = "<group>"; };
+		631D2A46207A04EB002D7B58 /* Nuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nuts.swift; sourceTree = "<group>"; };
+		631D2A48207A09F8002D7B58 /* BaseAddition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAddition.swift; sourceTree = "<group>"; };
+		632AC8AE2066BB4000DDCD73 /* SomeElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeElement.swift; sourceTree = "<group>"; };
+		63304D8320A87AEB00F727D4 /* PizzaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaStore.swift; sourceTree = "<group>"; };
+		63304D8720A87CBE00F727D4 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		63304D8920A87DCE00F727D4 /* NYCheesePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCheesePizza.swift; sourceTree = "<group>"; };
+		63304D8B20A87E7900F727D4 /* NYPizzaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYPizzaStore.swift; sourceTree = "<group>"; };
+		63304D8F20A8812500F727D4 /* NYFruitPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYFruitPizza.swift; sourceTree = "<group>"; };
+		63304D9320A8819800F727D4 /* CAPizzaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPizzaStore.swift; sourceTree = "<group>"; };
+		63304D9520A881E600F727D4 /* CACheesePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CACheesePizza.swift; sourceTree = "<group>"; };
+		63304D9720A881F900F727D4 /* CAFruitPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAFruitPizza.swift; sourceTree = "<group>"; };
+		635273A52061735500EBF6CD /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		635273A82061735500EBF6CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		635273AA2061735500EBF6CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		635273AD2061735500EBF6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		635273AF2061735500EBF6CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		635273B22061735500EBF6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		635273B42061735500EBF6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635273BB2061736B00EBF6CD /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		635273BD2061743F00EBF6CD /* FlyBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyBehavior.swift; sourceTree = "<group>"; };
+		635273BF2061745900EBF6CD /* QuackBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackBehaviour.swift; sourceTree = "<group>"; };
+		635273C3206174D400EBF6CD /* VeryHighFlyBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryHighFlyBehaviour.swift; sourceTree = "<group>"; };
+		635273C5206174E500EBF6CD /* NoFlyBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoFlyBehaviour.swift; sourceTree = "<group>"; };
+		635273C9206175D200EBF6CD /* SquackBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquackBehaviour.swift; sourceTree = "<group>"; };
+		635273CB2061760300EBF6CD /* MeokBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeokBehaviour.swift; sourceTree = "<group>"; };
+		635273CD2061763600EBF6CD /* RedDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedDuck.swift; sourceTree = "<group>"; };
+		635273CF206176DB00EBF6CD /* WoodyDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodyDuck.swift; sourceTree = "<group>"; };
+		635273D22061787300EBF6CD /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		635273D4206178E000EBF6CD /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		635273D62061795400EBF6CD /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		6397642D20C438D6002B06D6 /* PizzaIngredientFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaIngredientFactory.swift; sourceTree = "<group>"; };
+		6397642F20C43930002B06D6 /* Dough.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dough.swift; sourceTree = "<group>"; };
+		6397643120C43944002B06D6 /* Sauce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sauce.swift; sourceTree = "<group>"; };
+		6397643320C43954002B06D6 /* Cheese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheese.swift; sourceTree = "<group>"; };
+		6397643520C43965002B06D6 /* Veggies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veggies.swift; sourceTree = "<group>"; };
+		6397643720C43975002B06D6 /* Pepperoni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pepperoni.swift; sourceTree = "<group>"; };
+		6397643A20C43A79002B06D6 /* NYPizzaIngredientsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYPizzaIngredientsFactory.swift; sourceTree = "<group>"; };
+		6397643C20C43B6F002B06D6 /* AbstractPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractPizza.swift; sourceTree = "<group>"; };
+		6397643E20C43D0B002B06D6 /* CheesePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheesePizza.swift; sourceTree = "<group>"; };
+		6397644220C43F12002B06D6 /* NYPizzaStoreDupl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYPizzaStoreDupl.swift; sourceTree = "<group>"; };
+		6397644420C440C2002B06D6 /* PizzaStoreDupl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaStoreDupl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		635273A22061735500EBF6CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631D2A3C207A037B002D7B58 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				631D2A3D207A0390002D7B58 /* Beverage.swift */,
+				631D2A3F207A043C002D7B58 /* Coffee.swift */,
+				631D2A41207A04C2002D7B58 /* Additions */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		631D2A41207A04C2002D7B58 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				631D2A48207A09F8002D7B58 /* BaseAddition.swift */,
+				631D2A42207A04D0002D7B58 /* Milk.swift */,
+				631D2A44207A04D9002D7B58 /* Chocolate.swift */,
+				631D2A46207A04EB002D7B58 /* Nuts.swift */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		63304D8220A87ACC00F727D4 /* Factory Method */ = {
+			isa = PBXGroup;
+			children = (
+				63304D8320A87AEB00F727D4 /* PizzaStore.swift */,
+				63304D8720A87CBE00F727D4 /* Pizza.swift */,
+				63304D9A20A8833200F727D4 /* California */,
+				63304D9B20A8833C00F727D4 /* New York */,
+			);
+			path = "Factory Method";
+			sourceTree = "<group>";
+		};
+		63304D8D20A880CF00F727D4 /* New York Pizza Store */ = {
+			isa = PBXGroup;
+			children = (
+				63304D8B20A87E7900F727D4 /* NYPizzaStore.swift */,
+			);
+			path = "New York Pizza Store";
+			sourceTree = "<group>";
+		};
+		63304D8E20A880E600F727D4 /* New York Pizza */ = {
+			isa = PBXGroup;
+			children = (
+				63304D8920A87DCE00F727D4 /* NYCheesePizza.swift */,
+				63304D8F20A8812500F727D4 /* NYFruitPizza.swift */,
+			);
+			path = "New York Pizza";
+			sourceTree = "<group>";
+		};
+		63304D9120A8816D00F727D4 /* California Pizza */ = {
+			isa = PBXGroup;
+			children = (
+				63304D9520A881E600F727D4 /* CACheesePizza.swift */,
+				63304D9720A881F900F727D4 /* CAFruitPizza.swift */,
+			);
+			path = "California Pizza";
+			sourceTree = "<group>";
+		};
+		63304D9220A8817900F727D4 /* California Pizza Store */ = {
+			isa = PBXGroup;
+			children = (
+				63304D9320A8819800F727D4 /* CAPizzaStore.swift */,
+			);
+			path = "California Pizza Store";
+			sourceTree = "<group>";
+		};
+		63304D9A20A8833200F727D4 /* California */ = {
+			isa = PBXGroup;
+			children = (
+				63304D9120A8816D00F727D4 /* California Pizza */,
+				63304D9220A8817900F727D4 /* California Pizza Store */,
+			);
+			path = California;
+			sourceTree = "<group>";
+		};
+		63304D9B20A8833C00F727D4 /* New York */ = {
+			isa = PBXGroup;
+			children = (
+				63304D8E20A880E600F727D4 /* New York Pizza */,
+				63304D8D20A880CF00F727D4 /* New York Pizza Store */,
+			);
+			path = "New York";
+			sourceTree = "<group>";
+		};
+		6352739C2061735500EBF6CD = {
+			isa = PBXGroup;
+			children = (
+				635273A72061735500EBF6CD /* DesignPatterns */,
+				635273A62061735500EBF6CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		635273A62061735500EBF6CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				635273A52061735500EBF6CD /* DesignPatterns.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		635273A72061735500EBF6CD /* DesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				631D2A3C207A037B002D7B58 /* Decorator */,
+				635273BA2061735E00EBF6CD /* Strategy */,
+				635273D12061785C00EBF6CD /* Observer */,
+				63304D8220A87ACC00F727D4 /* Factory Method */,
+				6397642C20C438B6002B06D6 /* Abstract Factory */,
+				635273A82061735500EBF6CD /* AppDelegate.swift */,
+				635273AA2061735500EBF6CD /* ViewController.swift */,
+				635273AC2061735500EBF6CD /* Main.storyboard */,
+				635273AF2061735500EBF6CD /* Assets.xcassets */,
+				635273B12061735500EBF6CD /* LaunchScreen.storyboard */,
+				635273B42061735500EBF6CD /* Info.plist */,
+			);
+			path = DesignPatterns;
+			sourceTree = "<group>";
+		};
+		635273BA2061735E00EBF6CD /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				635273BB2061736B00EBF6CD /* Duck.swift */,
+				635273CF206176DB00EBF6CD /* WoodyDuck.swift */,
+				635273CD2061763600EBF6CD /* RedDuck.swift */,
+				635273C8206175BF00EBF6CD /* QuackBehaviours */,
+				635273C7206175AB00EBF6CD /* FlyBehaviours */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		635273C7206175AB00EBF6CD /* FlyBehaviours */ = {
+			isa = PBXGroup;
+			children = (
+				635273BD2061743F00EBF6CD /* FlyBehavior.swift */,
+				635273C3206174D400EBF6CD /* VeryHighFlyBehaviour.swift */,
+				635273C5206174E500EBF6CD /* NoFlyBehaviour.swift */,
+			);
+			path = FlyBehaviours;
+			sourceTree = "<group>";
+		};
+		635273C8206175BF00EBF6CD /* QuackBehaviours */ = {
+			isa = PBXGroup;
+			children = (
+				635273BF2061745900EBF6CD /* QuackBehaviour.swift */,
+				635273C9206175D200EBF6CD /* SquackBehaviour.swift */,
+				635273CB2061760300EBF6CD /* MeokBehaviour.swift */,
+			);
+			path = QuackBehaviours;
+			sourceTree = "<group>";
+		};
+		635273D12061785C00EBF6CD /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				635273D22061787300EBF6CD /* WeatherData.swift */,
+				632AC8AE2066BB4000DDCD73 /* SomeElement.swift */,
+				635273D62061795400EBF6CD /* Observer.swift */,
+				635273D4206178E000EBF6CD /* Subject.swift */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		63574B9320C45A310027CDE0 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				6397642D20C438D6002B06D6 /* PizzaIngredientFactory.swift */,
+				6397643C20C43B6F002B06D6 /* AbstractPizza.swift */,
+				6397644420C440C2002B06D6 /* PizzaStoreDupl.swift */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		6397642C20C438B6002B06D6 /* Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+				6397643920C43A65002B06D6 /* Ingredients */,
+				63574B9320C45A310027CDE0 /* Bases */,
+				6397643A20C43A79002B06D6 /* NYPizzaIngredientsFactory.swift */,
+				6397643E20C43D0B002B06D6 /* CheesePizza.swift */,
+				6397644220C43F12002B06D6 /* NYPizzaStoreDupl.swift */,
+			);
+			path = "Abstract Factory";
+			sourceTree = "<group>";
+		};
+		6397643920C43A65002B06D6 /* Ingredients */ = {
+			isa = PBXGroup;
+			children = (
+				6397642F20C43930002B06D6 /* Dough.swift */,
+				6397643120C43944002B06D6 /* Sauce.swift */,
+				6397643320C43954002B06D6 /* Cheese.swift */,
+				6397643520C43965002B06D6 /* Veggies.swift */,
+				6397643720C43975002B06D6 /* Pepperoni.swift */,
+			);
+			path = Ingredients;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		635273A42061735500EBF6CD /* DesignPatterns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635273B72061735500EBF6CD /* Build configuration list for PBXNativeTarget "DesignPatterns" */;
+			buildPhases = (
+				635273A12061735500EBF6CD /* Sources */,
+				635273A22061735500EBF6CD /* Frameworks */,
+				635273A32061735500EBF6CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignPatterns;
+			productName = DesignPatterns;
+			productReference = 635273A52061735500EBF6CD /* DesignPatterns.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6352739D2061735500EBF6CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					635273A42061735500EBF6CD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 635273A02061735500EBF6CD /* Build configuration list for PBXProject "DesignPatterns" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6352739C2061735500EBF6CD;
+			productRefGroup = 635273A62061735500EBF6CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				635273A42061735500EBF6CD /* DesignPatterns */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		635273A32061735500EBF6CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635273B32061735500EBF6CD /* LaunchScreen.storyboard in Resources */,
+				635273B02061735500EBF6CD /* Assets.xcassets in Resources */,
+				635273AE2061735500EBF6CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		635273A12061735500EBF6CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635273CE2061763600EBF6CD /* RedDuck.swift in Sources */,
+				635273D5206178E000EBF6CD /* Subject.swift in Sources */,
+				635273AB2061735500EBF6CD /* ViewController.swift in Sources */,
+				6397644320C43F12002B06D6 /* NYPizzaStoreDupl.swift in Sources */,
+				635273C6206174E500EBF6CD /* NoFlyBehaviour.swift in Sources */,
+				635273C4206174D400EBF6CD /* VeryHighFlyBehaviour.swift in Sources */,
+				635273D72061795400EBF6CD /* Observer.swift in Sources */,
+				63304D8420A87AEB00F727D4 /* PizzaStore.swift in Sources */,
+				63304D9820A881F900F727D4 /* CAFruitPizza.swift in Sources */,
+				6397642E20C438D6002B06D6 /* PizzaIngredientFactory.swift in Sources */,
+				635273C02061745900EBF6CD /* QuackBehaviour.swift in Sources */,
+				631D2A45207A04D9002D7B58 /* Chocolate.swift in Sources */,
+				635273CC2061760300EBF6CD /* MeokBehaviour.swift in Sources */,
+				635273D0206176DB00EBF6CD /* WoodyDuck.swift in Sources */,
+				635273A92061735500EBF6CD /* AppDelegate.swift in Sources */,
+				6397644520C440C2002B06D6 /* PizzaStoreDupl.swift in Sources */,
+				63304D9420A8819800F727D4 /* CAPizzaStore.swift in Sources */,
+				6397643F20C43D0B002B06D6 /* CheesePizza.swift in Sources */,
+				6397643820C43975002B06D6 /* Pepperoni.swift in Sources */,
+				631D2A47207A04EB002D7B58 /* Nuts.swift in Sources */,
+				631D2A49207A09F8002D7B58 /* BaseAddition.swift in Sources */,
+				6397643420C43954002B06D6 /* Cheese.swift in Sources */,
+				6397643020C43930002B06D6 /* Dough.swift in Sources */,
+				631D2A43207A04D0002D7B58 /* Milk.swift in Sources */,
+				63304D8A20A87DCE00F727D4 /* NYCheesePizza.swift in Sources */,
+				631D2A3E207A0390002D7B58 /* Beverage.swift in Sources */,
+				635273CA206175D200EBF6CD /* SquackBehaviour.swift in Sources */,
+				63304D9020A8812500F727D4 /* NYFruitPizza.swift in Sources */,
+				6397643D20C43B6F002B06D6 /* AbstractPizza.swift in Sources */,
+				6397643220C43944002B06D6 /* Sauce.swift in Sources */,
+				631D2A40207A043C002D7B58 /* Coffee.swift in Sources */,
+				6397643B20C43A79002B06D6 /* NYPizzaIngredientsFactory.swift in Sources */,
+				63304D9620A881E600F727D4 /* CACheesePizza.swift in Sources */,
+				632AC8AF2066BB4000DDCD73 /* SomeElement.swift in Sources */,
+				63304D8820A87CBE00F727D4 /* Pizza.swift in Sources */,
+				635273BC2061736B00EBF6CD /* Duck.swift in Sources */,
+				6397643620C43965002B06D6 /* Veggies.swift in Sources */,
+				63304D8C20A87E7900F727D4 /* NYPizzaStore.swift in Sources */,
+				635273D32061787300EBF6CD /* WeatherData.swift in Sources */,
+				635273BE2061743F00EBF6CD /* FlyBehavior.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		635273AC2061735500EBF6CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635273AD2061735500EBF6CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		635273B12061735500EBF6CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635273B22061735500EBF6CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		635273B52061735500EBF6CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		635273B62061735500EBF6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		635273B82061735500EBF6CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY3Z627ACC;
+				INFOPLIST_FILE = DesignPatterns/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GD.DesignPatterns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		635273B92061735500EBF6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY3Z627ACC;
+				INFOPLIST_FILE = DesignPatterns/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GD.DesignPatterns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		635273A02061735500EBF6CD /* Build configuration list for PBXProject "DesignPatterns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635273B52061735500EBF6CD /* Debug */,
+				635273B62061735500EBF6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635273B72061735500EBF6CD /* Build configuration list for PBXNativeTarget "DesignPatterns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635273B82061735500EBF6CD /* Debug */,
+				635273B92061735500EBF6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6352739D2061735500EBF6CD /* Project object */;
+}
