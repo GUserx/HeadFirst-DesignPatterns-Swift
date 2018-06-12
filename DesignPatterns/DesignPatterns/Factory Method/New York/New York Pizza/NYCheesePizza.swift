@@ -22,5 +22,6 @@ class NYCheesePizza: Pizza {
     
     func box() {
         print("Boxing New York Cheese Pizza")
+        BasePizza(name: String(describing: NYCheesePizza.self)).box()
     }
 }

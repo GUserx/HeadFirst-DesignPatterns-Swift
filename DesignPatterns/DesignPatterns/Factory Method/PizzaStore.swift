@@ -17,6 +17,7 @@ class PizzaStore {
         return somePizza
     }
     
+    //abstract method
     func createPizza(type: String) -> Pizza? {
         return nil
     }

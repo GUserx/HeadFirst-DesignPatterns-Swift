@@ -22,6 +22,7 @@
 		63304D9420A8819800F727D4 /* CAPizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63304D9320A8819800F727D4 /* CAPizzaStore.swift */; };
 		63304D9620A881E600F727D4 /* CACheesePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63304D9520A881E600F727D4 /* CACheesePizza.swift */; };
 		63304D9820A881F900F727D4 /* CAFruitPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63304D9720A881F900F727D4 /* CAFruitPizza.swift */; };
+		6339625D20CFD2D4004BF9A5 /* BasePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6339625C20CFD2D4004BF9A5 /* BasePizza.swift */; };
 		635273A92061735500EBF6CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273A82061735500EBF6CD /* AppDelegate.swift */; };
 		635273AB2061735500EBF6CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273AA2061735500EBF6CD /* ViewController.swift */; };
 		635273AE2061735500EBF6CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635273AC2061735500EBF6CD /* Main.storyboard */; };
@@ -68,6 +69,7 @@
 		63304D9320A8819800F727D4 /* CAPizzaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPizzaStore.swift; sourceTree = "<group>"; };
 		63304D9520A881E600F727D4 /* CACheesePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CACheesePizza.swift; sourceTree = "<group>"; };
 		63304D9720A881F900F727D4 /* CAFruitPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAFruitPizza.swift; sourceTree = "<group>"; };
+		6339625C20CFD2D4004BF9A5 /* BasePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePizza.swift; sourceTree = "<group>"; };
 		635273A52061735500EBF6CD /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		635273A82061735500EBF6CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		635273AA2061735500EBF6CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			children = (
 				63304D8320A87AEB00F727D4 /* PizzaStore.swift */,
 				63304D8720A87CBE00F727D4 /* Pizza.swift */,
+				6339625C20CFD2D4004BF9A5 /* BasePizza.swift */,
 				63304D9A20A8833200F727D4 /* California */,
 				63304D9B20A8833C00F727D4 /* New York */,
 			);
@@ -393,6 +396,7 @@
 				635273CC2061760300EBF6CD /* MeokBehaviour.swift in Sources */,
 				635273D0206176DB00EBF6CD /* WoodyDuck.swift in Sources */,
 				635273A92061735500EBF6CD /* AppDelegate.swift in Sources */,
+				6339625D20CFD2D4004BF9A5 /* BasePizza.swift in Sources */,
 				6397644520C440C2002B06D6 /* PizzaStoreDupl.swift in Sources */,
 				63304D9420A8819800F727D4 /* CAPizzaStore.swift in Sources */,
 				6397643F20C43D0B002B06D6 /* CheesePizza.swift in Sources */,
