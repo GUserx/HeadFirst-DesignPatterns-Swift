@@ -79,6 +79,42 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         */
         /******************************/
         
+        
+        //MARK: COMMAND
+        /******************************/
+        /*
+        let light = Light()
+        let stereo = Stereo()
+        
+        let remoteControl = RemoteControl()
+        
+        let lightOnCommand: Command = LightOnCommand(light: light)
+        let lightOffCommand: Command = LightOffCommand(light: light)
+        
+        let stereoOnWithCDCommand: Command = StereoOnWithCDCommand(stereo: stereo)
+        let stereoOffCommand: Command = StereoOffCommand(stereo: stereo)
+        
+        let partyOnCommand: Command = PartyOnCommand(commands: [lightOffCommand, stereoOnWithCDCommand])
+        let partyOffCommand: Command = PartyOffCommand(commands: [lightOnCommand, stereoOffCommand])
+        
+        remoteControl.setCommand(slot: 0, onCommand: lightOnCommand, offCommand: lightOffCommand)
+        remoteControl.setCommand(slot: 1, onCommand: stereoOnWithCDCommand, offCommand: stereoOffCommand)
+        remoteControl.setCommand(slot: 2, onCommand: partyOnCommand, offCommand: partyOffCommand)
+        
+        //Light
+        remoteControl.onButtonWasPushed(slot: 0)
+        remoteControl.offButtonWasPushed(slot: 0)
+        
+        //Stereo
+        remoteControl.onButtonWasPushed(slot: 1)
+        remoteControl.offButtonWasPushed(slot: 1)
+        
+        //Party
+        remoteControl.onButtonWasPushed(slot: 2)
+        remoteControl.offButtonWasPushed(slot: 2)
+        */
+        /******************************/
+        
         return true
     }
 }

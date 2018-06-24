@@ -13,6 +13,17 @@
 		631D2A45207A04D9002D7B58 /* Chocolate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D2A44207A04D9002D7B58 /* Chocolate.swift */; };
 		631D2A47207A04EB002D7B58 /* Nuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D2A46207A04EB002D7B58 /* Nuts.swift */; };
 		631D2A49207A09F8002D7B58 /* BaseAddition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D2A48207A09F8002D7B58 /* BaseAddition.swift */; };
+		6329481920DFEC8700605CBE /* RemoteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329481820DFEC8700605CBE /* RemoteControl.swift */; };
+		6329481C20DFED7F00605CBE /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329481B20DFED7F00605CBE /* Command.swift */; };
+		6329481E20DFEE9F00605CBE /* NoCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329481D20DFEE9F00605CBE /* NoCommand.swift */; };
+		6329482120DFEFFA00605CBE /* LightOnCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329482020DFEFFA00605CBE /* LightOnCommand.swift */; };
+		6329482320DFF00700605CBE /* LightOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329482220DFF00700605CBE /* LightOffCommand.swift */; };
+		6329482520DFF02200605CBE /* StereoOnWithCDCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329482420DFF02200605CBE /* StereoOnWithCDCommand.swift */; };
+		6329482820DFF08500605CBE /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329482720DFF08500605CBE /* Light.swift */; };
+		6329482A20DFF19500605CBE /* Stereo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329482920DFF19500605CBE /* Stereo.swift */; };
+		6329482C20DFF3C800605CBE /* StereoOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329482B20DFF3C800605CBE /* StereoOffCommand.swift */; };
+		6329483020DFF5AF00605CBE /* PartyOnCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329482F20DFF5AF00605CBE /* PartyOnCommand.swift */; };
+		6329483220DFF87300605CBE /* PartyOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329483120DFF87300605CBE /* PartyOffCommand.swift */; };
 		632AC8AF2066BB4000DDCD73 /* SomeElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632AC8AE2066BB4000DDCD73 /* SomeElement.swift */; };
 		63304D8420A87AEB00F727D4 /* PizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63304D8320A87AEB00F727D4 /* PizzaStore.swift */; };
 		63304D8820A87CBE00F727D4 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63304D8720A87CBE00F727D4 /* Pizza.swift */; };
@@ -60,6 +71,17 @@
 		631D2A44207A04D9002D7B58 /* Chocolate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chocolate.swift; sourceTree = "<group>"; };
 		631D2A46207A04EB002D7B58 /* Nuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nuts.swift; sourceTree = "<group>"; };
 		631D2A48207A09F8002D7B58 /* BaseAddition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAddition.swift; sourceTree = "<group>"; };
+		6329481820DFEC8700605CBE /* RemoteControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControl.swift; sourceTree = "<group>"; };
+		6329481B20DFED7F00605CBE /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		6329481D20DFEE9F00605CBE /* NoCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoCommand.swift; sourceTree = "<group>"; };
+		6329482020DFEFFA00605CBE /* LightOnCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightOnCommand.swift; sourceTree = "<group>"; };
+		6329482220DFF00700605CBE /* LightOffCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightOffCommand.swift; sourceTree = "<group>"; };
+		6329482420DFF02200605CBE /* StereoOnWithCDCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereoOnWithCDCommand.swift; sourceTree = "<group>"; };
+		6329482720DFF08500605CBE /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		6329482920DFF19500605CBE /* Stereo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stereo.swift; sourceTree = "<group>"; };
+		6329482B20DFF3C800605CBE /* StereoOffCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereoOffCommand.swift; sourceTree = "<group>"; };
+		6329482F20DFF5AF00605CBE /* PartyOnCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyOnCommand.swift; sourceTree = "<group>"; };
+		6329483120DFF87300605CBE /* PartyOffCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyOffCommand.swift; sourceTree = "<group>"; };
 		632AC8AE2066BB4000DDCD73 /* SomeElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeElement.swift; sourceTree = "<group>"; };
 		63304D8320A87AEB00F727D4 /* PizzaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaStore.swift; sourceTree = "<group>"; };
 		63304D8720A87CBE00F727D4 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
@@ -132,6 +154,48 @@
 				631D2A46207A04EB002D7B58 /* Nuts.swift */,
 			);
 			path = Additions;
+			sourceTree = "<group>";
+		};
+		6329481720DFEC6300605CBE /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				6329482620DFF07600605CBE /* Recievers */,
+				6329481A20DFED6B00605CBE /* Initiator */,
+				6329481F20DFEFD400605CBE /* ConcreteCommands */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		6329481A20DFED6B00605CBE /* Initiator */ = {
+			isa = PBXGroup;
+			children = (
+				6329481820DFEC8700605CBE /* RemoteControl.swift */,
+			);
+			path = Initiator;
+			sourceTree = "<group>";
+		};
+		6329481F20DFEFD400605CBE /* ConcreteCommands */ = {
+			isa = PBXGroup;
+			children = (
+				6329481B20DFED7F00605CBE /* Command.swift */,
+				6329481D20DFEE9F00605CBE /* NoCommand.swift */,
+				6329482F20DFF5AF00605CBE /* PartyOnCommand.swift */,
+				6329483120DFF87300605CBE /* PartyOffCommand.swift */,
+				6329482020DFEFFA00605CBE /* LightOnCommand.swift */,
+				6329482220DFF00700605CBE /* LightOffCommand.swift */,
+				6329482420DFF02200605CBE /* StereoOnWithCDCommand.swift */,
+				6329482B20DFF3C800605CBE /* StereoOffCommand.swift */,
+			);
+			path = ConcreteCommands;
+			sourceTree = "<group>";
+		};
+		6329482620DFF07600605CBE /* Recievers */ = {
+			isa = PBXGroup;
+			children = (
+				6329482720DFF08500605CBE /* Light.swift */,
+				6329482920DFF19500605CBE /* Stereo.swift */,
+			);
+			path = Recievers;
 			sourceTree = "<group>";
 		};
 		63304D8220A87ACC00F727D4 /* Factory Method */ = {
@@ -222,6 +286,7 @@
 				635273D12061785C00EBF6CD /* Observer */,
 				63304D8220A87ACC00F727D4 /* Factory Method */,
 				6397642C20C438B6002B06D6 /* Abstract Factory */,
+				6329481720DFEC6300605CBE /* Command */,
 				635273A82061735500EBF6CD /* AppDelegate.swift */,
 				635273AA2061735500EBF6CD /* ViewController.swift */,
 				635273AC2061735500EBF6CD /* Main.storyboard */,
@@ -392,8 +457,12 @@
 				63304D9820A881F900F727D4 /* CAFruitPizza.swift in Sources */,
 				6397642E20C438D6002B06D6 /* PizzaIngredientFactory.swift in Sources */,
 				635273C02061745900EBF6CD /* QuackBehaviour.swift in Sources */,
+				6329482520DFF02200605CBE /* StereoOnWithCDCommand.swift in Sources */,
+				6329483020DFF5AF00605CBE /* PartyOnCommand.swift in Sources */,
+				6329481920DFEC8700605CBE /* RemoteControl.swift in Sources */,
 				631D2A45207A04D9002D7B58 /* Chocolate.swift in Sources */,
 				635273CC2061760300EBF6CD /* MeokBehaviour.swift in Sources */,
+				6329482320DFF00700605CBE /* LightOffCommand.swift in Sources */,
 				635273D0206176DB00EBF6CD /* WoodyDuck.swift in Sources */,
 				635273A92061735500EBF6CD /* AppDelegate.swift in Sources */,
 				6339625D20CFD2D4004BF9A5 /* BasePizza.swift in Sources */,
@@ -401,12 +470,15 @@
 				63304D9420A8819800F727D4 /* CAPizzaStore.swift in Sources */,
 				6397643F20C43D0B002B06D6 /* CheesePizza.swift in Sources */,
 				6397643820C43975002B06D6 /* Pepperoni.swift in Sources */,
+				6329482C20DFF3C800605CBE /* StereoOffCommand.swift in Sources */,
 				631D2A47207A04EB002D7B58 /* Nuts.swift in Sources */,
 				631D2A49207A09F8002D7B58 /* BaseAddition.swift in Sources */,
 				6397643420C43954002B06D6 /* Cheese.swift in Sources */,
+				6329482120DFEFFA00605CBE /* LightOnCommand.swift in Sources */,
 				6397643020C43930002B06D6 /* Dough.swift in Sources */,
 				631D2A43207A04D0002D7B58 /* Milk.swift in Sources */,
 				63304D8A20A87DCE00F727D4 /* NYCheesePizza.swift in Sources */,
+				6329482820DFF08500605CBE /* Light.swift in Sources */,
 				631D2A3E207A0390002D7B58 /* Beverage.swift in Sources */,
 				635273CA206175D200EBF6CD /* SquackBehaviour.swift in Sources */,
 				63304D9020A8812500F727D4 /* NYFruitPizza.swift in Sources */,
@@ -414,13 +486,17 @@
 				6397643220C43944002B06D6 /* Sauce.swift in Sources */,
 				631D2A40207A043C002D7B58 /* Coffee.swift in Sources */,
 				6397643B20C43A79002B06D6 /* NYPizzaIngredientsFactory.swift in Sources */,
+				6329481E20DFEE9F00605CBE /* NoCommand.swift in Sources */,
+				6329481C20DFED7F00605CBE /* Command.swift in Sources */,
 				63304D9620A881E600F727D4 /* CACheesePizza.swift in Sources */,
 				632AC8AF2066BB4000DDCD73 /* SomeElement.swift in Sources */,
 				63304D8820A87CBE00F727D4 /* Pizza.swift in Sources */,
+				6329482A20DFF19500605CBE /* Stereo.swift in Sources */,
 				635273BC2061736B00EBF6CD /* Duck.swift in Sources */,
 				6397643620C43965002B06D6 /* Veggies.swift in Sources */,
 				63304D8C20A87E7900F727D4 /* NYPizzaStore.swift in Sources */,
 				635273D32061787300EBF6CD /* WeatherData.swift in Sources */,
+				6329483220DFF87300605CBE /* PartyOffCommand.swift in Sources */,
 				635273BE2061743F00EBF6CD /* FlyBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
