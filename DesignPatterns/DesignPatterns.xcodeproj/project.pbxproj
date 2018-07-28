@@ -51,6 +51,10 @@
 		635273D32061787300EBF6CD /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273D22061787300EBF6CD /* WeatherData.swift */; };
 		635273D5206178E000EBF6CD /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273D4206178E000EBF6CD /* Subject.swift */; };
 		635273D72061795400EBF6CD /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273D62061795400EBF6CD /* Observer.swift */; };
+		636B485A210CF12A005E7C42 /* TurkeyAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B4859210CF12A005E7C42 /* TurkeyAdapter.swift */; };
+		636B485C210CF16A005E7C42 /* DuckInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B485B210CF16A005E7C42 /* DuckInterface.swift */; };
+		636B485E210CF1E2005E7C42 /* TurkeyInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B485D210CF1E2005E7C42 /* TurkeyInterface.swift */; };
+		636B4860210CF27A005E7C42 /* WildTurkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B485F210CF27A005E7C42 /* WildTurkey.swift */; };
 		6397642E20C438D6002B06D6 /* PizzaIngredientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397642D20C438D6002B06D6 /* PizzaIngredientFactory.swift */; };
 		6397643020C43930002B06D6 /* Dough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397642F20C43930002B06D6 /* Dough.swift */; };
 		6397643220C43944002B06D6 /* Sauce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397643120C43944002B06D6 /* Sauce.swift */; };
@@ -111,6 +115,10 @@
 		635273D22061787300EBF6CD /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		635273D4206178E000EBF6CD /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		635273D62061795400EBF6CD /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		636B4859210CF12A005E7C42 /* TurkeyAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkeyAdapter.swift; sourceTree = "<group>"; };
+		636B485B210CF16A005E7C42 /* DuckInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckInterface.swift; sourceTree = "<group>"; };
+		636B485D210CF1E2005E7C42 /* TurkeyInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkeyInterface.swift; sourceTree = "<group>"; };
+		636B485F210CF27A005E7C42 /* WildTurkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildTurkey.swift; sourceTree = "<group>"; };
 		6397642D20C438D6002B06D6 /* PizzaIngredientFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaIngredientFactory.swift; sourceTree = "<group>"; };
 		6397642F20C43930002B06D6 /* Dough.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dough.swift; sourceTree = "<group>"; };
 		6397643120C43944002B06D6 /* Sauce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sauce.swift; sourceTree = "<group>"; };
@@ -287,6 +295,7 @@
 				63304D8220A87ACC00F727D4 /* Factory Method */,
 				6397642C20C438B6002B06D6 /* Abstract Factory */,
 				6329481720DFEC6300605CBE /* Command */,
+				636B4858210CF0D4005E7C42 /* Adapter */,
 				635273A82061735500EBF6CD /* AppDelegate.swift */,
 				635273AA2061735500EBF6CD /* ViewController.swift */,
 				635273AC2061735500EBF6CD /* Main.storyboard */,
@@ -348,6 +357,17 @@
 				6397644420C440C2002B06D6 /* PizzaStoreDupl.swift */,
 			);
 			path = Bases;
+			sourceTree = "<group>";
+		};
+		636B4858210CF0D4005E7C42 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				636B4859210CF12A005E7C42 /* TurkeyAdapter.swift */,
+				636B485D210CF1E2005E7C42 /* TurkeyInterface.swift */,
+				636B485B210CF16A005E7C42 /* DuckInterface.swift */,
+				636B485F210CF27A005E7C42 /* WildTurkey.swift */,
+			);
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 		6397642C20C438B6002B06D6 /* Abstract Factory */ = {
@@ -473,6 +493,8 @@
 				6329482C20DFF3C800605CBE /* StereoOffCommand.swift in Sources */,
 				631D2A47207A04EB002D7B58 /* Nuts.swift in Sources */,
 				631D2A49207A09F8002D7B58 /* BaseAddition.swift in Sources */,
+				636B485A210CF12A005E7C42 /* TurkeyAdapter.swift in Sources */,
+				636B485C210CF16A005E7C42 /* DuckInterface.swift in Sources */,
 				6397643420C43954002B06D6 /* Cheese.swift in Sources */,
 				6329482120DFEFFA00605CBE /* LightOnCommand.swift in Sources */,
 				6397643020C43930002B06D6 /* Dough.swift in Sources */,
@@ -485,11 +507,13 @@
 				6397643D20C43B6F002B06D6 /* AbstractPizza.swift in Sources */,
 				6397643220C43944002B06D6 /* Sauce.swift in Sources */,
 				631D2A40207A043C002D7B58 /* Coffee.swift in Sources */,
+				636B485E210CF1E2005E7C42 /* TurkeyInterface.swift in Sources */,
 				6397643B20C43A79002B06D6 /* NYPizzaIngredientsFactory.swift in Sources */,
 				6329481E20DFEE9F00605CBE /* NoCommand.swift in Sources */,
 				6329481C20DFED7F00605CBE /* Command.swift in Sources */,
 				63304D9620A881E600F727D4 /* CACheesePizza.swift in Sources */,
 				632AC8AF2066BB4000DDCD73 /* SomeElement.swift in Sources */,
+				636B4860210CF27A005E7C42 /* WildTurkey.swift in Sources */,
 				63304D8820A87CBE00F727D4 /* Pizza.swift in Sources */,
 				6329482A20DFF19500605CBE /* Stereo.swift in Sources */,
 				635273BC2061736B00EBF6CD /* Duck.swift in Sources */,

@@ -115,6 +115,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         */
         /******************************/
         
+        
+        //MARK: ADAPTER
+        /******************************/
+        /*
+        let turkey: TurkeyInterface = WildTurkey()
+        let turkeyAdapter = TurkeyAdapter(turkey: turkey)
+        
+        turkeyAdapter.fly()
+        turkeyAdapter.quack()
+        */
+        /******************************/
+        
         return true
     }
 }
