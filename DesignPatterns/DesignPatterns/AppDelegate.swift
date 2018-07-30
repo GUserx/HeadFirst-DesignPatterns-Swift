@@ -127,6 +127,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         */
         /******************************/
         
+        
+        //MARK: TEMPLATE METHOD
+        /******************************/
+        /*
+        let tea = Tea()
+        tea.prepareRecipe()
+        
+        let cocoa = Cocoa()
+        cocoa.prepareRecipe()
+        */
+        /******************************/
+        
         return true
     }
 }
