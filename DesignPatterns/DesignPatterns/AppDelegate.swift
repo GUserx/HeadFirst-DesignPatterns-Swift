@@ -139,6 +139,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         */
         /******************************/
         
+        
+        //MARK: COMPOSITE
+        /******************************/
+        /*
+        let pancakeHouseMenu = Menu(name: "PANCAKE HOUSE MENU", description: "Breakfast")
+        let dinnerMenu = Menu(name: "DINNER MENU", description: "LUNCH")
+        let cafeMenu = Menu(name: "CAFE MENU", description: "Dinner")
+        let desertMenu = Menu(name: "DESERT MENU", description: "Desert at the end")
+        
+        let allMenus = Menu(name: "ALL MENUS", description: "All menus combined")
+        allMenus.add(components: [pancakeHouseMenu, dinnerMenu, cafeMenu])
+        
+        let pasta = MenuItem(name: "Pasta", description: "Spaghetti with Marinara Sauce", vegeterian: true, price: 3.89)
+        let applePie = MenuItem(name: "Apple Pie", description: "Apple pie with a flakey crust", vegeterian: true, price: 1.59)
+
+        dinnerMenu.add(component: pasta)
+        dinnerMenu.add(component: desertMenu)
+        
+        desertMenu.add(component: applePie)
+        
+        let waitress = Waitress(allMenus: allMenus)
+        waitress.printMenu()
+        */
+        /******************************/
+        
         return true
     }
 }

@@ -36,6 +36,10 @@
 		63304D9420A8819800F727D4 /* CAPizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63304D9320A8819800F727D4 /* CAPizzaStore.swift */; };
 		63304D9620A881E600F727D4 /* CACheesePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63304D9520A881E600F727D4 /* CACheesePizza.swift */; };
 		63304D9820A881F900F727D4 /* CAFruitPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63304D9720A881F900F727D4 /* CAFruitPizza.swift */; };
+		633712E42115B10C00636D35 /* MenuComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633712E32115B10C00636D35 /* MenuComponent.swift */; };
+		633712E62115B4F400636D35 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633712E52115B4F400636D35 /* MenuItem.swift */; };
+		633712E82115B6CA00636D35 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633712E72115B6CA00636D35 /* Menu.swift */; };
+		633712EA2115BB3D00636D35 /* Waitress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633712E92115BB3D00636D35 /* Waitress.swift */; };
 		6339625D20CFD2D4004BF9A5 /* BasePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6339625C20CFD2D4004BF9A5 /* BasePizza.swift */; };
 		635273A92061735500EBF6CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273A82061735500EBF6CD /* AppDelegate.swift */; };
 		635273AB2061735500EBF6CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273AA2061735500EBF6CD /* ViewController.swift */; };
@@ -101,6 +105,10 @@
 		63304D9320A8819800F727D4 /* CAPizzaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPizzaStore.swift; sourceTree = "<group>"; };
 		63304D9520A881E600F727D4 /* CACheesePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CACheesePizza.swift; sourceTree = "<group>"; };
 		63304D9720A881F900F727D4 /* CAFruitPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAFruitPizza.swift; sourceTree = "<group>"; };
+		633712E32115B10C00636D35 /* MenuComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuComponent.swift; sourceTree = "<group>"; };
+		633712E52115B4F400636D35 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		633712E72115B6CA00636D35 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		633712E92115BB3D00636D35 /* Waitress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waitress.swift; sourceTree = "<group>"; };
 		6339625C20CFD2D4004BF9A5 /* BasePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePizza.swift; sourceTree = "<group>"; };
 		635273A52061735500EBF6CD /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		635273A82061735500EBF6CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -286,6 +294,17 @@
 			path = "New York";
 			sourceTree = "<group>";
 		};
+		633712E22115B0D900636D35 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				633712E32115B10C00636D35 /* MenuComponent.swift */,
+				633712E52115B4F400636D35 /* MenuItem.swift */,
+				633712E72115B6CA00636D35 /* Menu.swift */,
+				633712E92115BB3D00636D35 /* Waitress.swift */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
 		6352739C2061735500EBF6CD = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +332,7 @@
 				6329481720DFEC6300605CBE /* Command */,
 				636B4858210CF0D4005E7C42 /* Adapter */,
 				6309F8CE210F7E5B006BAF6E /* Template Method */,
+				633712E22115B0D900636D35 /* Composite */,
 				635273A82061735500EBF6CD /* AppDelegate.swift */,
 				635273AA2061735500EBF6CD /* ViewController.swift */,
 				635273AC2061735500EBF6CD /* Main.storyboard */,
@@ -489,6 +509,7 @@
 				635273AB2061735500EBF6CD /* ViewController.swift in Sources */,
 				6397644320C43F12002B06D6 /* NYPizzaStoreDupl.swift in Sources */,
 				635273C6206174E500EBF6CD /* NoFlyBehaviour.swift in Sources */,
+				633712E42115B10C00636D35 /* MenuComponent.swift in Sources */,
 				635273C4206174D400EBF6CD /* VeryHighFlyBehaviour.swift in Sources */,
 				635273D72061795400EBF6CD /* Observer.swift in Sources */,
 				63304D8420A87AEB00F727D4 /* PizzaStore.swift in Sources */,
@@ -529,9 +550,12 @@
 				636B485E210CF1E2005E7C42 /* TurkeyInterface.swift in Sources */,
 				6397643B20C43A79002B06D6 /* NYPizzaIngredientsFactory.swift in Sources */,
 				6329481E20DFEE9F00605CBE /* NoCommand.swift in Sources */,
+				633712E82115B6CA00636D35 /* Menu.swift in Sources */,
 				6329481C20DFED7F00605CBE /* Command.swift in Sources */,
+				633712EA2115BB3D00636D35 /* Waitress.swift in Sources */,
 				63304D9620A881E600F727D4 /* CACheesePizza.swift in Sources */,
 				632AC8AF2066BB4000DDCD73 /* SomeElement.swift in Sources */,
+				633712E62115B4F400636D35 /* MenuItem.swift in Sources */,
 				636B4860210CF27A005E7C42 /* WildTurkey.swift in Sources */,
 				63304D8820A87CBE00F727D4 /* Pizza.swift in Sources */,
 				6329482A20DFF19500605CBE /* Stereo.swift in Sources */,
