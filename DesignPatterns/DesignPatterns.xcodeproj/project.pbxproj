@@ -58,6 +58,12 @@
 		635273D32061787300EBF6CD /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273D22061787300EBF6CD /* WeatherData.swift */; };
 		635273D5206178E000EBF6CD /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273D4206178E000EBF6CD /* Subject.swift */; };
 		635273D72061795400EBF6CD /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635273D62061795400EBF6CD /* Observer.swift */; };
+		63644D1421172E2200BED6F4 /* GumballMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63644D1321172E2200BED6F4 /* GumballMachine.swift */; };
+		63644D1621172E2900BED6F4 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63644D1521172E2900BED6F4 /* State.swift */; };
+		63644D1821172F6800BED6F4 /* SoldOutState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63644D1721172F6800BED6F4 /* SoldOutState.swift */; };
+		63644D1A21172F9200BED6F4 /* NoCoinState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63644D1921172F9200BED6F4 /* NoCoinState.swift */; };
+		63644D1C21172FC200BED6F4 /* HasCoinState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63644D1B21172FC200BED6F4 /* HasCoinState.swift */; };
+		63644D1E21172FE700BED6F4 /* SoldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63644D1D21172FE700BED6F4 /* SoldState.swift */; };
 		636B485A210CF12A005E7C42 /* TurkeyAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B4859210CF12A005E7C42 /* TurkeyAdapter.swift */; };
 		636B485C210CF16A005E7C42 /* DuckInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B485B210CF16A005E7C42 /* DuckInterface.swift */; };
 		636B485E210CF1E2005E7C42 /* TurkeyInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B485D210CF1E2005E7C42 /* TurkeyInterface.swift */; };
@@ -129,6 +135,12 @@
 		635273D22061787300EBF6CD /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		635273D4206178E000EBF6CD /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		635273D62061795400EBF6CD /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		63644D1321172E2200BED6F4 /* GumballMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GumballMachine.swift; sourceTree = "<group>"; };
+		63644D1521172E2900BED6F4 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		63644D1721172F6800BED6F4 /* SoldOutState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldOutState.swift; sourceTree = "<group>"; };
+		63644D1921172F9200BED6F4 /* NoCoinState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoCoinState.swift; sourceTree = "<group>"; };
+		63644D1B21172FC200BED6F4 /* HasCoinState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasCoinState.swift; sourceTree = "<group>"; };
+		63644D1D21172FE700BED6F4 /* SoldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldState.swift; sourceTree = "<group>"; };
 		636B4859210CF12A005E7C42 /* TurkeyAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkeyAdapter.swift; sourceTree = "<group>"; };
 		636B485B210CF16A005E7C42 /* DuckInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckInterface.swift; sourceTree = "<group>"; };
 		636B485D210CF1E2005E7C42 /* TurkeyInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkeyInterface.swift; sourceTree = "<group>"; };
@@ -333,6 +345,7 @@
 				636B4858210CF0D4005E7C42 /* Adapter */,
 				6309F8CE210F7E5B006BAF6E /* Template Method */,
 				633712E22115B0D900636D35 /* Composite */,
+				63644D1221172E0800BED6F4 /* State */,
 				635273A82061735500EBF6CD /* AppDelegate.swift */,
 				635273AA2061735500EBF6CD /* ViewController.swift */,
 				635273AC2061735500EBF6CD /* Main.storyboard */,
@@ -394,6 +407,27 @@
 				6397644420C440C2002B06D6 /* PizzaStoreDupl.swift */,
 			);
 			path = Bases;
+			sourceTree = "<group>";
+		};
+		63644D1221172E0800BED6F4 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				63644D1F2117300600BED6F4 /* Concrete States */,
+				63644D1521172E2900BED6F4 /* State.swift */,
+				63644D1321172E2200BED6F4 /* GumballMachine.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		63644D1F2117300600BED6F4 /* Concrete States */ = {
+			isa = PBXGroup;
+			children = (
+				63644D1D21172FE700BED6F4 /* SoldState.swift */,
+				63644D1B21172FC200BED6F4 /* HasCoinState.swift */,
+				63644D1921172F9200BED6F4 /* NoCoinState.swift */,
+				63644D1721172F6800BED6F4 /* SoldOutState.swift */,
+			);
+			path = "Concrete States";
 			sourceTree = "<group>";
 		};
 		636B4858210CF0D4005E7C42 /* Adapter */ = {
@@ -509,6 +543,7 @@
 				635273AB2061735500EBF6CD /* ViewController.swift in Sources */,
 				6397644320C43F12002B06D6 /* NYPizzaStoreDupl.swift in Sources */,
 				635273C6206174E500EBF6CD /* NoFlyBehaviour.swift in Sources */,
+				63644D1E21172FE700BED6F4 /* SoldState.swift in Sources */,
 				633712E42115B10C00636D35 /* MenuComponent.swift in Sources */,
 				635273C4206174D400EBF6CD /* VeryHighFlyBehaviour.swift in Sources */,
 				635273D72061795400EBF6CD /* Observer.swift in Sources */,
@@ -526,6 +561,7 @@
 				635273D0206176DB00EBF6CD /* WoodyDuck.swift in Sources */,
 				635273A92061735500EBF6CD /* AppDelegate.swift in Sources */,
 				6339625D20CFD2D4004BF9A5 /* BasePizza.swift in Sources */,
+				63644D1C21172FC200BED6F4 /* HasCoinState.swift in Sources */,
 				6397644520C440C2002B06D6 /* PizzaStoreDupl.swift in Sources */,
 				63304D9420A8819800F727D4 /* CAPizzaStore.swift in Sources */,
 				6397643F20C43D0B002B06D6 /* CheesePizza.swift in Sources */,
@@ -543,13 +579,17 @@
 				6329482820DFF08500605CBE /* Light.swift in Sources */,
 				631D2A3E207A0390002D7B58 /* Beverage.swift in Sources */,
 				635273CA206175D200EBF6CD /* SquackBehaviour.swift in Sources */,
+				63644D1A21172F9200BED6F4 /* NoCoinState.swift in Sources */,
+				63644D1421172E2200BED6F4 /* GumballMachine.swift in Sources */,
 				63304D9020A8812500F727D4 /* NYFruitPizza.swift in Sources */,
 				6397643D20C43B6F002B06D6 /* AbstractPizza.swift in Sources */,
 				6397643220C43944002B06D6 /* Sauce.swift in Sources */,
 				631D2A40207A043C002D7B58 /* Coffee.swift in Sources */,
 				636B485E210CF1E2005E7C42 /* TurkeyInterface.swift in Sources */,
+				63644D1821172F6800BED6F4 /* SoldOutState.swift in Sources */,
 				6397643B20C43A79002B06D6 /* NYPizzaIngredientsFactory.swift in Sources */,
 				6329481E20DFEE9F00605CBE /* NoCommand.swift in Sources */,
+				63644D1621172E2900BED6F4 /* State.swift in Sources */,
 				633712E82115B6CA00636D35 /* Menu.swift in Sources */,
 				6329481C20DFED7F00605CBE /* Command.swift in Sources */,
 				633712EA2115BB3D00636D35 /* Waitress.swift in Sources */,

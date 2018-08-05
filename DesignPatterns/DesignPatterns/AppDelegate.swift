@@ -164,6 +164,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         */
         /******************************/
         
+        
+        //MARK: STATE
+        /******************************/
+        /*
+        let gumballMachine = GumballMachine(count: 5)
+        
+        gumballMachine.turnCrank()
+        gumballMachine.insertCoin()
+        gumballMachine.turnCrank()
+        
+        gumballMachine.ejectCoin()
+        gumballMachine.insertCoin()
+        gumballMachine.ejectCoin()
+        
+        gumballMachine.insertCoin()
+        gumballMachine.turnCrank()
+        gumballMachine.turnCrank()
+        gumballMachine.ejectCoin()
+        */
+        /******************************/
+        
         return true
     }
 }
